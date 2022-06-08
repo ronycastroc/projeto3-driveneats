@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    background-color: #e5e5e5;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.425);
+    
+}
+
+.topo {
+    background-color: red;
+    width: 414px;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.topo > p {
+    margin-left: 20px;
+}
+
+.topo p:nth-child(1) {
+    font-family: 'Righteous', cursive;
+    font-size: 44px;
+    color: #ffffff;
+}
+
+.topo p:nth-child(2) {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+footer {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.barra {
+    background-color: green;
+    width: 414px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+}
+
+.prato {
+    background-color: #e5e5e5;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: -110px;
+    width: 414px;
+    height: 264px;
+}
+
+.prato > p {
+    font-family: 'Righteous', cursive;
+    font-size: 26px;
+    color: #333333;
+    padding: 10px 0px 10px 20px;
+}
+
+.pratos {
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+
+.opcaoprato {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 172px;
+    height: 216px;
+    margin-left: 15px;
+    border-radius: 9px;
+}
+
+.opcaoprato > img {
+    width: 144px;
+    height: 87px;
+    margin: 18px 14px 0px 14px;
+}
+
+.opcaoprato > p {
+    margin: 10px 0px 0px 14px;
+}
+
+.opcaoprato > p:nth-child(2) {
+    font-weight: 700;
+    font-size: 16px;
+    color: #333333;
+}
+
+.opcaoprato > p:nth-child(3) {
+    font-weight: 300;
+    font-size: 15px;
+    color: #a6a6a6;
+}
+
+.opcaoprato > p:nth-child(4) {
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}
