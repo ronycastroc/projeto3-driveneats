@@ -110,6 +110,7 @@ footer {
     height: 216px;
     margin-left: 15px;
     border-radius: 9px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.247);
 }
 
 .opcaoprato > img {
@@ -170,6 +171,7 @@ footer {
     height: 216px;
     margin-left: 15px;
     border-radius: 9px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.247);
 }
 
 .opcaobebida > img {
@@ -232,6 +234,7 @@ footer {
     height: 216px;
     margin-left: 15px;
     border-radius: 9px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.247);
 }
 
 .opcaosobremesa > img {
