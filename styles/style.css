@@ -5,6 +5,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 header {
     background-color: red;
     width: 100%;
@@ -80,6 +84,8 @@ footer {
     margin-top: 6px;
 }
 
+
+
 .prato {
     background-color: #e5e5e5;
     margin: 0 auto;
@@ -140,6 +146,7 @@ footer {
     font-size: 16px;
     color: black;
 }
+
 
 .bebida {
     background-color: #e5e5e5;
@@ -263,4 +270,8 @@ footer {
     font-weight: 400;
     font-size: 16px;
     color: black;
+}
+
+.borda  {
+    border: 5px solid #32B72F;
 }
