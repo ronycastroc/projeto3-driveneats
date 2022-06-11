@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: red;
+    background-color: #CF2B2B;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -23,7 +23,7 @@ header {
 }
 
 .topo {
-    background-color: red;
+    background-color: #CF2B2B;
     width: 414px;
     height: 92px;
     display: flex;
@@ -117,6 +117,7 @@ footer {
     margin-left: 15px;
     border-radius: 9px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.247);
+    position: relative;
 }
 
 .opcaoprato > img {
@@ -179,6 +180,7 @@ footer {
     margin-left: 15px;
     border-radius: 9px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.247);
+    position: relative;
 }
 
 .opcaobebida > img {
@@ -242,6 +244,7 @@ footer {
     margin-left: 15px;
     border-radius: 9px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.247);
+    position: relative;
 }
 
 .opcaosobremesa > img {
@@ -275,3 +278,17 @@ footer {
 .borda  {
     border: 5px solid #32B72F;
 }
+
+.check {
+    color: #32B72F;
+    font-size: 20px;
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+
+}
+
+.selecionado {
+    background-color: #32B72F;
+}
+

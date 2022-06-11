@@ -30,28 +30,30 @@
         <p>Primeiro, seu prato</p>
 
         <div class="pratos">
-            <div class="opcaoprato 1" onclick=clicou()>
+            <div class="opcaoprato" onclick=clicou(this)>
                 <img src="img/frango_yin_yang 1.png" alt="">
                 <p>Frango Yin Yang</p>
                 <p>Um pouco de batata, um pouco de salada</p>
                 <p>R$ 13,90</p>
+                <p></p>
             </div>
             
-            <div class="opcaoprato 2" onclick=clicou()>
+            <div class="opcaoprato" onclick=clicou(this)>
                 <img src="img/frango_yin_yang 1.png" alt="">
                 <p>Frango Yin</p>
                 <p>Um pouco de batata, e muita salada</p>
                 <p>R$ 14,90</p>
+                
             </div>
 
-            <div class="opcaoprato 3" onclick=clicou()>
+            <div class="opcaoprato" onclick=clicou(this)>
                 <img src="img/frango_yin_yang 1.png" alt="">
                 <p>Frango Yang</p>
                 <p>Muita batata, e um pouco de salada</p>
                 <p>R$ 15,90</p>
             </div>
             
-            <div class="opcaoprato 4" onclick=clicou()>
+            <div class="opcaoprato" onclick=clicou(this)>
                 <img src="img/frango_yin_yang 1.png" alt="">
                 <p>Frango Yang Yin</p>
                 <p>Muita batata, e muita salada</p>
@@ -60,32 +62,32 @@
         </div>
     </section>
 
-    <section class="bebida">
+    <section class="bebida bebidaclick">
         <p>Agora, sua bebida</p>
 
         <div class="bebidas">
-            <div class="opcaobebida">
+            <div class="opcaobebida" onclick=clicou2(this)>
                 <img src="img/coquinha_gelada 1.png" alt="">
                 <p>Coquinha gelada</p>
                 <p>Lata 350ml</p>
                 <p>R$ 4,90</p>
             </div>
             
-            <div class="opcaobebida">
+            <div class="opcaobebida" onclick=clicou2(this)>
                 <img src="img/coquinha_gelada 1.png" alt="">
                 <p>Coquinha quente</p>
                 <p>Lata 350ml</p>
                 <p>R$ 3,90</p>
             </div>
 
-            <div class="opcaobebida">
+            <div class="opcaobebida" onclick=clicou2(this)>
                 <img src="img/coquinha_gelada 1.png" alt="">
                 <p>Coquinha sem gás</p>
                 <p>Lata 350ml</p>
                 <p>R$ 2,90</p>
             </div>
             
-            <div class="opcaobebida">
+            <div class="opcaobebida" onclick=clicou2(this)>
                 <img src="img/coquinha_gelada 1.png" alt="">
                 <p>Coquinha zero</p>
                 <p>Lata 350ml</p>
@@ -94,32 +96,32 @@
         </div>
         </section>
 
-    <section class="sobremesa">
+    <section class="sobremesa pudimclick">
             <p>Por fim, sua sobremesa</p>
     
             <div class="sobremesas">
-                <div class="opcaosobremesa">
+                <div class="opcaosobremesa" onclick=clicou3(this)>
                     <img src="img/pudim 1.png" alt="">
                     <p>Pudim P</p>
                     <p>Apenas pudim</p>
                     <p>R$ 6,90</p>
                 </div>
                 
-                <div class="opcaosobremesa">
+                <div class="opcaosobremesa" onclick=clicou3(this)>
                     <img src="img/pudim 1.png" alt="">
                     <p>Pudim M</p>
                     <p>Apenas pudim</p>
                     <p>R$ 7,90</p>
                 </div>
     
-                <div class="opcaosobremesa">
+                <div class="opcaosobremesa" onclick=clicou3(this)>
                     <img src="img/pudim 1.png" alt="">
                     <p>Pudim G</p>
                     <p>Apenas pudim</p>
                     <p>R$ 8,90</p>
                 </div>
                 
-                <div class="opcaosobremesa">
+                <div class="opcaosobremesa" onclick=clicou3(this)>
                     <img src="img/pudim 1.png" alt="">
                     <p>Pudim GG</p>
                     <p>Apenas pudim</p>
@@ -128,9 +130,13 @@
             </div>
     </section>
     
+    <ion-icon class="check" name="checkmark-circle"></ion-icon>
+    
+    
+    
 
 
-
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
