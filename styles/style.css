@@ -74,14 +74,16 @@ footer {
     width: 364px;
     height: 61px;
     border-radius: 50px;
+    display: table;
 }
 
 .botaobarra > p {
-    text-align: center;
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 400;
-    margin-top: 6px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 
@@ -277,6 +279,7 @@ footer {
 
 .borda  {
     border: 5px solid #32B72F;
+    transition-duration: 0.1s;
 }
 
 .check {
@@ -290,5 +293,10 @@ footer {
 
 .selecionado {
     background-color: #32B72F;
+    transition-duration: 1s;
+}
+
+ion-icon {
+    display: none;
 }
 
