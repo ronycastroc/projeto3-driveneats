@@ -19,7 +19,7 @@
 
     <footer>  
         <div class="barra">
-            <div class="botaobarra" onclick="finalizar()">
+            <div class="botaobarra" onclick="liberar()">
                 <p>Selecione os 3 itens<br/>
                  para fechar o pedido</p>
             </div>
@@ -32,32 +32,34 @@
         <div class="pratos">
             <div class="opcaoprato" onclick=clicou(this)>
                 <img src="img/frango_yin_yang 1.png" alt="">
-                <p>Frango Yin Yang</p>
+                <p class="nomeprato">Frango Yin Yang</p>
                 <p>Um pouco de batata, um pouco de salada</p>
-                <p>R$ 13,90</p>
-                <p></p>
+                <p class="valorprato">R$ 13.90</p>
+                <ion-icon class="check" name="checkmark-circle"></ion-icon>
             </div>
             
             <div class="opcaoprato" onclick=clicou(this)>
                 <img src="img/frango_yin_yang 1.png" alt="">
-                <p>Frango Yin</p>
+                <p class="nomeprato">Frango Yin</p>
                 <p>Um pouco de batata, e muita salada</p>
-                <p>R$ 14,90</p>
-                
+                <p class="valorprato">R$ 14.90</p>
+                <ion-icon class="check" name="checkmark-circle"></ion-icon>
             </div>
 
             <div class="opcaoprato" onclick=clicou(this)>
                 <img src="img/frango_yin_yang 1.png" alt="">
-                <p>Frango Yang</p>
+                <p class="nomeprato">Frango Yang</p>
                 <p>Muita batata, e um pouco de salada</p>
-                <p>R$ 15,90</p>
+                <p class="valorprato">R$ 15.90</p>
+                <ion-icon class="check" name="checkmark-circle"></ion-icon>
             </div>
             
             <div class="opcaoprato" onclick=clicou(this)>
                 <img src="img/frango_yin_yang 1.png" alt="">
-                <p>Frango Yang Yin</p>
+                <p class="nomeprato">Frango Yang Yin</p>
                 <p>Muita batata, e muita salada</p>
-                <p>R$ 16,90</p>
+                <p class="valorprato">R$ 16.90</p>
+                <ion-icon class="check" name="checkmark-circle"></ion-icon>
             </div>
         </div>
     </section>
@@ -68,30 +70,34 @@
         <div class="bebidas">
             <div class="opcaobebida" onclick=clicou2(this)>
                 <img src="img/coquinha_gelada 1.png" alt="">
-                <p>Coquinha gelada</p>
+                <p class="nomebeb">Coquinha gelada</p>
                 <p>Lata 350ml</p>
-                <p>R$ 4,90</p>
+                <p class="valorbeb">R$ 4.90</p>
+                <ion-icon class="check" name="checkmark-circle"></ion-icon>
             </div>
             
             <div class="opcaobebida" onclick=clicou2(this)>
                 <img src="img/coquinha_gelada 1.png" alt="">
-                <p>Coquinha quente</p>
+                <p class="nomebeb">Coquinha quente</p>
                 <p>Lata 350ml</p>
-                <p>R$ 3,90</p>
+                <p class="valorbeb">R$ 3.90</p>
+                <ion-icon class="check" name="checkmark-circle"></ion-icon>
             </div>
 
             <div class="opcaobebida" onclick=clicou2(this)>
                 <img src="img/coquinha_gelada 1.png" alt="">
-                <p>Coquinha sem gás</p>
+                <p class="nomebeb">Coquinha sem gás</p>
                 <p>Lata 350ml</p>
-                <p>R$ 2,90</p>
+                <p class="valorbeb">R$ 2.90</p>
+                <ion-icon class="check" name="checkmark-circle"></ion-icon>
             </div>
             
             <div class="opcaobebida" onclick=clicou2(this)>
                 <img src="img/coquinha_gelada 1.png" alt="">
-                <p>Coquinha zero</p>
+                <p class="nomebeb">Coquinha zero</p>
                 <p>Lata 350ml</p>
-                <p>R$ 5,90</p>
+                <p class="valorbeb">R$ 5.90</p>
+                <ion-icon class="check" name="checkmark-circle"></ion-icon>
             </div>
         </div>
         </section>
@@ -102,35 +108,43 @@
             <div class="sobremesas">
                 <div class="opcaosobremesa" onclick=clicou3(this)>
                     <img src="img/pudim 1.png" alt="">
-                    <p>Pudim P</p>
+                    <p class="nomepud">Pudim P</p>
                     <p>Apenas pudim</p>
-                    <p>R$ 6,90</p>
+                    <p class="valorpud">R$ 6.90</p>
+                    <ion-icon class="check" name="checkmark-circle"></ion-icon>
                 </div>
                 
                 <div class="opcaosobremesa" onclick=clicou3(this)>
                     <img src="img/pudim 1.png" alt="">
-                    <p>Pudim M</p>
+                    <p class="nomepud">Pudim M</p>
                     <p>Apenas pudim</p>
-                    <p>R$ 7,90</p>
+                    <p class="valorpud">R$ 7.90</p>
+                    <ion-icon class="check" name="checkmark-circle"></ion-icon>
                 </div>
     
                 <div class="opcaosobremesa" onclick=clicou3(this)>
                     <img src="img/pudim 1.png" alt="">
-                    <p>Pudim G</p>
+                    <p class="nomepud">Pudim G</p>
                     <p>Apenas pudim</p>
-                    <p>R$ 8,90</p>
+                    <p class="valorpud">R$ 8.90</p>
+                    <ion-icon class="check" name="checkmark-circle"></ion-icon>
                 </div>
                 
                 <div class="opcaosobremesa" onclick=clicou3(this)>
                     <img src="img/pudim 1.png" alt="">
-                    <p>Pudim GG</p>
+                    <p class="nomepud">Pudim GG</p>
                     <p>Apenas pudim</p>
-                    <p>R$ 9,90</p>
+                    <p class="valorpud">R$ 9.90</p>
+                    <ion-icon class="check" name="checkmark-circle"></ion-icon>
                 </div>
             </div>
     </section>
     
-    <ion-icon class="check" name="checkmark-circle"></ion-icon>
+    
+
+    
+
+
     
     
     
