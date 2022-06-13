@@ -3,6 +3,7 @@
 body {
     background-color: #e5e5e5;
     font-family: 'Roboto', sans-serif;
+    position: relative;
 }
 
 * {
@@ -85,8 +86,6 @@ footer {
     display: table-cell;
     vertical-align: middle;
 }
-
-
 
 .prato {
     background-color: #e5e5e5;
@@ -297,6 +296,34 @@ footer {
     display: initial;
 }
 
+.check2 {
+    color: #32B72F;
+    font-size: 20px;
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    display: none;
+
+}
+
+.ap2 {
+    display: initial;
+}
+
+.check3 {
+    color: #32B72F;
+    font-size: 20px;
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    display: none;
+
+}
+
+.ap3 {
+    display: initial;
+}
+
 
 .selecionado {
     background-color: #32B72F;
@@ -305,11 +332,142 @@ footer {
 
 a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #50D074;
+}
+
+.confirmarcaixa {
+    display: flex;
+    justify-content: center;
+}
+
+.caixa {
+    background-color: #50D074;
+    width: 377px;
+    height: 353px;
+    border-radius: 9px;
+    position: absolute;
+    position: fixed;
+    z-index: 2;
+    top: 130px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition-duration: 1s;
+}
+
+.caixa h1 {
+    text-align: center;
+    
+    font-size: 22px;
+    color:#FFFFFF;
+    font-weight: bold;
+}
+
+.food {
+    display: inline-flex;
+    justify-content: space-around;
 }
 
 
 
+.food > span:nth-child(1) {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 400;
+    
+}
+
+.food > span:nth-child(2) {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 400;
+   
+}
+
+.drink {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.drink > span:nth-child(1) {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.drink > span:nth-child(2) {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.candy {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.candy > span:nth-child(1) {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.candy > span:nth-child(2) {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.all {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.all > span:nth-child(1) {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.all > span:nth-child(2) {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.tudocerto {
+    background-color:#FFFFFF;
+    width: 329px;
+    height: 52px;
+    margin-left: 24px;
+    border-radius: 100px;
+    text-align: center;
+    display: table;
+}
+
+.tudocerto > span {
+    color: #50D074;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 80px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.cancelar {
+    text-align: center;
+}
+
+.cancelar > span {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.escondido {
+    display: none;
+    transition-duration: 1s;
+}
 
 
 

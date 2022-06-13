@@ -19,12 +19,13 @@
 
     <footer>  
         <div class="barra">
-            <div class="botaobarra" onclick="liberar()">
+            <div class="botaobarra" onclick="liberarclick()">
                 <p>Selecione os 3 itens<br/>
                  para fechar o pedido</p>
             </div>
         </div> 
     </footer>
+
 
     <section class="prato">
         <p>Primeiro, seu prato</p>
@@ -70,7 +71,7 @@
         <div class="bebidas">
             <div class="opcaobebida" onclick=clicou2(this)>
                 <img src="img/coquinha_gelada 1.png" alt="">
-                <p class="nomebeb">Coquinha gelada</p>
+                <p class="nomebeb">Coquinha Gelada</p>
                 <p>Lata 350ml</p>
                 <p class="valorbeb">R$ 4.90</p>
                 <ion-icon class="check" name="checkmark-circle"></ion-icon>
@@ -78,7 +79,7 @@
             
             <div class="opcaobebida" onclick=clicou2(this)>
                 <img src="img/coquinha_gelada 1.png" alt="">
-                <p class="nomebeb">Coquinha quente</p>
+                <p class="nomebeb">Coquinha Quente</p>
                 <p>Lata 350ml</p>
                 <p class="valorbeb">R$ 3.90</p>
                 <ion-icon class="check" name="checkmark-circle"></ion-icon>
@@ -86,7 +87,7 @@
 
             <div class="opcaobebida" onclick=clicou2(this)>
                 <img src="img/coquinha_gelada 1.png" alt="">
-                <p class="nomebeb">Coquinha sem gás</p>
+                <p class="nomebeb">Coquinha Sem gás</p>
                 <p>Lata 350ml</p>
                 <p class="valorbeb">R$ 2.90</p>
                 <ion-icon class="check" name="checkmark-circle"></ion-icon>
@@ -94,7 +95,7 @@
             
             <div class="opcaobebida" onclick=clicou2(this)>
                 <img src="img/coquinha_gelada 1.png" alt="">
-                <p class="nomebeb">Coquinha zero</p>
+                <p class="nomebeb">Coquinha Zero</p>
                 <p>Lata 350ml</p>
                 <p class="valorbeb">R$ 5.90</p>
                 <ion-icon class="check" name="checkmark-circle"></ion-icon>
@@ -139,13 +140,36 @@
                 </div>
             </div>
     </section>
-    
-    
 
-    
+   
+    <div class="confirmarcaixa escondido">
+        <div class="caixa">
+            <h1>Confirme seu pedido</h1>
+            <div class="food">
+                <span class="nomeprato">comida</span> <span class="valorprato">valor</span>
+            </div>
 
+            <div class="drink">
+                <span class="nomebeb">bebida</span> <span class="valorbeb">valor</span>
+            </div>
 
-    
+            <div class="candy">
+                <span class="nomepud">pudim</span> <span class="valorpud">valor</span>
+            </div>
+
+            <div class="all">
+                <span>TOTAL</span> <span class="valortotal">valor</span>
+            </div>
+
+            <div class="tudocerto" onclick="finalizar()">
+                <span>Tudo certo, pode pedir!</span>
+            </div>
+
+            <div class="cancelar" onclick="cancelar()">
+                <span>Cancelar</span>
+            </div>
+        </div>
+    </div>     
     
     
 
